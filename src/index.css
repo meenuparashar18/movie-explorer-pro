@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-marquee-bg text-marquee-cream font-body transition-colors duration-300;
+  }
+
+  html.light body {
+    @apply bg-paper-bg text-paper-ink;
+  }
+
+  /* baaki tumhara code */
+}
+  ::selection {
+    @apply bg-marquee-gold/30 text-marquee-cream;
+  }
+  :focus-visible {
+    outline: 2px solid #E8B959;
+    outline-offset: 2px;
+  }
+  h1, h2, h3, .font-display {
+    letter-spacing: 0.02em;
+  }
+
+
+@layer components {
+  .surface {
+    @apply bg-marquee-panel border border-marquee-line;
+  }
+  html.light .surface {
+    @apply bg-paper-panel border-paper-line;
+  }
+
+  .surface-raised {
+    @apply bg-marquee-panel2 border border-marquee-line;
+  }
+  html.light .surface-raised {
+    @apply bg-paper-panel2 border-paper-line;
+  }
+
+  .text-muted {
+    @apply text-marquee-smoke;
+  }
+  html.light .text-muted {
+    @apply text-paper-smoke;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-marquee-gold text-marquee-bg font-body font-semibold px-5 py-2.5 hover:bg-marquee-gold2 transition-colors shadow-glow;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm border border-marquee-gold/60 text-marquee-gold font-body font-semibold px-5 py-2.5 hover:bg-marquee-gold/10 transition-colors;
+  }
+
+  .chip {
+    @apply text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-sm surface-raised text-muted;
+  }
+
+  .skeleton {
+    @apply relative overflow-hidden bg-marquee-panel2;
+  }
+  html.light .skeleton {
+    @apply bg-paper-panel2;
+  }
+  .skeleton::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgba(232,185,89,0.10), transparent);
+    animation: shimmer 1.6s infinite;
+  }
+  @keyframes shimmer {
+    100% { transform: translateX(100%); }
+  }
+
+  /* sprocket-hole divider — the signature motif */
+  .sprocket-divider {
+    height: 14px;
+    background-image:
+      radial-gradient(circle, #E8B959 2.5px, transparent 2.5px);
+    background-size: 22px 14px;
+    background-repeat: repeat-x;
+    background-position: center;
+    opacity: 0.55;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #E8B959;
+    border-radius: 4px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
