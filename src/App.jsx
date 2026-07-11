@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import SearchResult from "./pages/SearchResult";
 import Category from "./pages/Category";
 import Favorites from "./pages/Favorites";
+import MovieDetails from "./pages/MovieDetails";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/search" element={<SearchResult />} />
         <Route path="/category/:type" element={<Category />} />
         <Route path="/favorites" element={<Favorites />} />
+        <Route path="/movie/:id" element={<MovieDetails />} />
       </Route>
     </Routes>
   );
