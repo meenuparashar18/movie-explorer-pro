@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.png" alt="Movie Explorer Pro Banner"/>
+  <img src="./banner.png.png" alt="Movie Explorer Pro Banner"/>
 </p>
 
 <h1 align="center">🎬 Movie Explorer Pro</h1>
