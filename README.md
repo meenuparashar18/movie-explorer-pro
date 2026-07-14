@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./home.png" alt="Movie Explorer Pro Banner"/>
+  <img src="./banner.png" alt="Movie Explorer Pro Banner"/>
 </p>
 
 <h1 align="center">🎬 Movie Explorer Pro</h1>
@@ -88,7 +88,7 @@ Powered by the **TMDB API**, the application provides movie posters, ratings, re
 |-----------|--------------|
 | ⚛️ Frontend | React.js, Vite |
 | 🎨 Styling | Tailwind CSS |
-| 🌐 API | TMDB API, REST API |
+| 🌐 API |  REST API |
 | 💻 Language | JavaScript (ES6+) |
 | 🔧 Tools | Git, GitHub |
 | 📱 Design | Responsive UI |
