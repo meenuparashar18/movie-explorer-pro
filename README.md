@@ -26,7 +26,6 @@ A modern movie discovery platform built with <b>React</b> that allows users to s
 <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/TMDB_API-01B4E4?style=for-the-badge&logo=themoviedatabase&logoColor=white"/>
 <img src="https://img.shields.io/badge/REST_API-FF6F00?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
@@ -65,19 +64,19 @@ Powered by the **TMDB API**, the application provides movie posters, ratings, re
 
 ### 🏠 Home Page
 
-<img src="my-app/Screenshot 2026-07-14 104556.png" width="900"/>
+<img src="./screenshots/home.png" width="900"/>
 
 <br><br>
 
 ### 🔍 Search Movies
 
-<img src="my-app/Screenshot 2026-07-14 104948.png" width="900"/>
+<img src="./screenshots/search.png" width="900"/>
 
 <br><br>
 
 ### 🎬 Movie Details
 
-<img src="my-app/Screenshot 2026-07-14 105019.png" width="900"/>
+<img src="./screenshots/details.png" width="900"/>
 
 </div>
 
@@ -188,3 +187,4 @@ Through this project, I strengthened my understanding of:
 <p align="center">
 ⭐ If you like this project, don't forget to star the repository!
 </p>
+
