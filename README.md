@@ -64,7 +64,7 @@ Powered by the **TMDB API**, the application provides movie posters, ratings, re
 
 ### 🏠 Home Page
 
-<img src="./screenshots/home.png" width="900"/>
+<img src="d:\New folder\Movie recommendation\my-app\Screenshot 2026-07-14 104556.png" width="900"/>
 
 <br><br>
 
@@ -124,7 +124,7 @@ Movie-Explorer-Pro
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Movie-Explorer-Pro.git
+git clone https://github.com/meenuparashar18/movie-explorer-pro.git
 ```
 
 ### Navigate to the Project
