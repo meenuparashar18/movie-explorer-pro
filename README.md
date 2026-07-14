@@ -64,7 +64,7 @@ Powered by the **TMDB API**, the application provides movie posters, ratings, re
 
 ### 🏠 Home Page
 
-<img src="d:\New folder\Movie recommendation\my-app\Screenshot 2026-07-14 104556.png" width="900"/>
+<img src="./home.png" width="900"/>
 
 <br><br>
 
