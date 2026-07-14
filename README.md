@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./screenshots/banner.png" alt="Movie Explorer Pro Banner"/>
+  <img src="./home.png" alt="Movie Explorer Pro Banner"/>
 </p>
 
 <h1 align="center">🎬 Movie Explorer Pro</h1>
@@ -70,13 +70,13 @@ Powered by the **TMDB API**, the application provides movie posters, ratings, re
 
 ### 🔍 Search Movies
 
-<img src="./screenshots/search.png" width="900"/>
+<img src="./search.png" width="900"/>
 
 <br><br>
 
 ### 🎬 Movie Details
 
-<img src="./screenshots/details.png" width="900"/>
+<img src="./details.png" width="900"/>
 
 </div>
 
